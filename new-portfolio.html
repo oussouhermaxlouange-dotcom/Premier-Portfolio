@@ -1,0 +1,438 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfolio de OUSSOU Hermax, développeur front-end et concepteur UI/UX."
+    />
+    <title>OUSSOU Hermax | Front-end &amp; UI/UX</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="new-portfolio.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-shell">
+        <a class="brand" href="#accueil" aria-label="OUSSOU Hermax, accueil">
+          <span class="brand-mark">OH</span>
+          <span>OUSSOU Hermax</span>
+        </a>
+        <nav class="nav-links" id="primary-navigation" aria-label="Navigation principale">
+          <a href="#accueil">Accueil</a>
+          <a href="#expertise">Expertise</a>
+          <a href="#services">Services</a>
+          <a href="#approche">Démarche</a>
+          <a href="#stack">Stack</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <button
+          class="nav-toggle"
+          type="button"
+          aria-label="Ouvrir le menu"
+          aria-controls="primary-navigation"
+          aria-expanded="false"
+        >
+          <span></span><span></span><span></span>
+        </button>
+        <a class="nav-cta" href="#contact">Freelance contact</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="container hero" id="accueil">
+        <div>
+          <p class="eyebrow">Licence 2 · Front-end · UI/UX</p>
+          <h1 class="hero-title">
+            Je conçois des interfaces <span>web</span> propres, attractives et
+            faites pour retenir l'attention.
+          </h1>
+          <p class="hero-copy">
+            Je suis <strong>OUSSOU Hermax</strong>, passionné par le
+            développement d'interfaces modernes et performantes. Actuellement
+            en deuxième année de Licence Informatique, j'allie la rigueur
+            technique à la créativité du design d'interaction.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#expertise">Explorer mes projets</a>
+            <a class="button button-secondary" href="#services">Voir mes services</a>
+          </div>
+          <div class="hero-metrics" aria-label="Quelques chiffres">
+            <div class="metric">
+              <strong>4+</strong>
+              <span>technologies clés en intégration et développement web</span>
+            </div>
+            <div class="metric">
+              <strong>100%</strong>
+              <span>d'implication pour des interfaces intuitives</span>
+            </div>
+            <div class="metric">
+              <strong>L2</strong>
+              <span>Licence Informatique · Java, Python, Kotlin, C#</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-stage">
+          <div class="code-card" aria-label="Aperçu de mon approche front-end">
+            <div class="code-topbar">
+              <span class="window-dots" aria-hidden="true"><i></i><i></i><i></i></span>
+              <span class="code-label">interface-preview.html</span>
+            </div>
+            <div class="code-body" aria-hidden="true">
+              <span class="code-line"><span class="code-numbers">01</span><span class="code-comment">// Une expérience claire, jusque dans le code</span></span>
+              <span class="code-line"><span class="code-numbers">02</span><span class="code-key">const</span> interface = {</span>
+              <span class="code-line"><span class="code-numbers">03</span>  <span class="code-key">responsive</span>: <span class="code-key">true</span>,</span>
+              <span class="code-line"><span class="code-numbers">04</span>  <span class="code-key">accessible</span>: <span class="code-key">true</span>,</span>
+              <span class="code-line"><span class="code-numbers">05</span>  <span class="code-key">details</span>: <span class="code-string">"soignés"</span>,</span>
+              <span class="code-line"><span class="code-numbers">06</span>};</span>
+              <span class="code-line"><span class="code-numbers">07</span></span>
+              <span class="code-line"><span class="code-numbers">08</span><span class="code-key">function</span> <span class="code-function">createExperience</span>(brief) {</span>
+              <span class="code-line"><span class="code-numbers">09</span>  <span class="code-key">return</span> design(brief, interface);</span>
+              <span class="code-line"><span class="code-numbers">10</span>}</span>
+            </div>
+            <div class="code-notes">
+              <article class="code-note">
+                <strong>Conception UX</strong>
+                <p>Un parcours simple, lisible et pensé pour les utilisateurs.</p>
+              </article>
+              <article class="code-note">
+                <strong>Animations &amp; motion</strong>
+                <p>Des transitions discrètes au service de l'expérience.</p>
+              </article>
+            </div>
+            <div class="code-signature">
+              <span class="signature-mark">OH</span>
+              <div>
+                <strong>OUSSOU Hermax</strong>
+                <span>Front-end · UI/UX · Interfaces web</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="ticker" aria-label="Compétences principales">
+        <div class="ticker-track">
+          <span>HTML5</span><span>CSS3</span><span>JavaScript ES6+</span>
+          <span>React.js</span><span>UI Design</span><span>Responsive Systems</span>
+          <span>Scroll Motion</span><span>Design Details</span>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="section-heading" id="expertise">
+            <p class="eyebrow">Expertise principale</p>
+            <h2>
+              Une solide maîtrise technique du front-end, combinée à une
+              sensibilité esthétique affûtée pour des rendus d'exception.
+            </h2>
+          </div>
+          <div class="card-grid expertise-grid">
+            <article class="card expertise-card">
+              <span class="card-arrow">↗</span>
+              <span class="card-index">01</span>
+              <h3>Mises en page pixel-perfect</h3>
+              <p>
+                Je structure des gabarits web modernes à l'aide de Flexbox et
+                CSS Grid. Chaque alignement et chaque typographie contribuent
+                à un rendu équilibré sur tous les écrans.
+              </p>
+            </article>
+            <article class="card expertise-card">
+              <span class="card-arrow">↗</span>
+              <span class="card-index">02</span>
+              <h3>Applications React modulaires</h3>
+              <p>
+                Je conçois des composants réutilisables et isolés pour garder
+                un code clair, accélérer le développement et faciliter les
+                évolutions du produit.
+              </p>
+            </article>
+            <article class="card expertise-card">
+              <span class="card-arrow">↗</span>
+              <span class="card-index">03</span>
+              <h3>Design UX orienté utilisateurs</h3>
+              <p>
+                Lisibilité, contraste et cohérence guident mes choix afin de
+                concevoir des parcours fluides qui accompagnent efficacement
+                les utilisateurs.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-soft">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Ce que je peux réaliser</p>
+            <h2>
+              Des formats de page adaptés aux attentes de vos visiteurs,
+              collaborateurs ou recruteurs.
+            </h2>
+          </div>
+          <div class="card-grid formats-grid">
+            <article class="card format-card">
+              <p class="eyebrow">Landing page</p>
+              <h3>Vitrines numériques &amp; pages de destination</h3>
+              <p>
+                Une introduction percutante, des actions visibles et des
+                animations discrètes pour susciter l'intérêt.
+              </p>
+            </article>
+            <article class="card format-card">
+              <p class="eyebrow">Portfolio</p>
+              <h3>Présentation de parcours unique</h3>
+              <p>
+                Un espace personnalisé qui traduit un parcours, des projets et
+                des expertises.
+              </p>
+            </article>
+            <article class="card format-card">
+              <p class="eyebrow">Dashboard</p>
+              <h3>Interfaces de gestion épurées</h3>
+              <p>
+                Des données lisibles, des contrôles accessibles et des
+                indicateurs bien hiérarchisés.
+              </p>
+            </article>
+            <article class="card format-card">
+              <p class="eyebrow">Refonte</p>
+              <h3>Modernisation visuelle &amp; ergonomique</h3>
+              <p>
+                Une navigation clarifiée, un design soigné et un code optimisé.
+              </p>
+            </article>
+          </div>
+          <article class="card work-preview">
+            <div>
+              <p class="eyebrow">Aperçu web</p>
+              <h3>Une immersion dans la rigueur de chaque composant.</h3>
+              <p>
+                Des interfaces cohérentes, responsive et agréables à utiliser,
+                construites avec soin du premier écran au dernier détail.
+              </p>
+            </div>
+            <div class="preview-images" aria-label="Aperçus de projets web">
+              <div class="preview-screen"><span>Interface web · Accueil</span></div>
+              <div class="preview-screen"><span>Design responsive · Détail</span></div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="services">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Mes services</p>
+            <h2>
+              Je vous accompagne dans la création d'expériences numériques qui
+              séduisent, convertissent et renforcent votre présence en ligne.
+            </h2>
+          </div>
+          <div class="card-grid services-grid">
+            <article class="card service-card">
+              <span class="service-icon">01</span>
+              <h3>Sites web vitrine</h3>
+              <p>
+                Des sites élégants et performants pour présenter votre
+                activité, vos valeurs et vos offres.
+              </p>
+              <ul><li>Landing pages premium</li><li>Design responsive</li><li>Conversion &amp; message</li></ul>
+            </article>
+            <article class="card service-card">
+              <span class="service-icon">02</span>
+              <h3>Applications web modernes</h3>
+              <p>
+                Des interfaces interactives et ergonomiques pour vos outils,
+                portails et projets professionnels.
+              </p>
+              <ul><li>Interfaces interactives</li><li>Architecture claire</li><li>UX orientée objectif</li></ul>
+            </article>
+            <article class="card service-card">
+              <span class="service-icon">03</span>
+              <h3>Applications mobiles</h3>
+              <p>
+                Des expériences mobiles fonctionnelles, intuitives et
+                attentives aux performances.
+              </p>
+              <ul><li>UI mobile pensée UX</li><li>Navigation intuitive</li><li>Expérience native-like</li></ul>
+            </article>
+            <article class="card service-card">
+              <span class="service-icon">04</span>
+              <h3>Refonte &amp; optimisation</h3>
+              <p>
+                Une modernisation de l'existant qui améliore l'esthétique,
+                l'ergonomie et la lisibilité.
+              </p>
+              <ul><li>Audit visuel</li><li>Amélioration UX</li><li>Performance &amp; clarté</li></ul>
+            </article>
+          </div>
+          <div class="services-cta">
+            <div>
+              <strong>Besoin d'un projet sur mesure ?</strong>
+              <span>Discutons de vos besoins et de votre idée.</span>
+            </div>
+            <a class="button button-primary" href="#contact">Discutons votre idée</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-soft" id="approche">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Approche méthodologique</p>
+            <h2>
+              Une démarche rigoureuse par étapes pour garantir un rendu
+              optimal et une intégration pérenne.
+            </h2>
+          </div>
+          <div class="process-list">
+            <article class="process-row">
+              <span class="process-number">01</span>
+              <h3>Analyse des besoins &amp; immersion</h3>
+              <p>
+                Je clarifie les objectifs, l'audience et le message afin de
+                définir une orientation visuelle pertinente.
+              </p>
+              <div class="process-tag">VISION GLOBALE<span>Objectifs · audience · positionnement</span></div>
+            </article>
+            <article class="process-row">
+              <span class="process-number">02</span>
+              <h3>Hiérarchisation &amp; structure</h3>
+              <p>
+                J'organise l'information pour offrir une lecture aérée et une
+                navigation claire sur chaque écran.
+              </p>
+              <div class="process-tag">ARCHITECTURE<span>Structure HTML · grille · navigation</span></div>
+            </article>
+            <article class="process-row">
+              <span class="process-number">03</span>
+              <h3>Intégration &amp; animations fluides</h3>
+              <p>
+                J'ajoute des transitions discrètes et des animations
+                coordonnées, sans alourdir la navigation.
+              </p>
+              <div class="process-tag">EXPÉRIENCE<span>Animations · transitions · détails</span></div>
+            </article>
+            <article class="process-row">
+              <span class="process-number">04</span>
+              <h3>Évolution &amp; veille continue</h3>
+              <p>
+                Je structure le code selon les bonnes pratiques et poursuis
+                l'exploration de nouvelles technologies.
+              </p>
+              <div class="process-tag">DURABILITÉ<span>Maintenance · qualité · évolution</span></div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="stack">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Technologies &amp; compétences</p>
+            <h2>
+              Un écosystème technique maîtrisé au service d'interfaces
+              interactives et robustes.
+            </h2>
+          </div>
+          <div class="stack-panel">
+            <div>
+              <h3>Je donne vie aux interfaces dynamiques avec <span>React.js</span></h3>
+              <p>
+                Je conçois des applications web modulaires en organisant le
+                code autour de composants réutilisables. L'accent est mis sur
+                la maintenabilité, la cohérence et une expérience fluide.
+              </p>
+            </div>
+            <div class="stack-tags" aria-label="Technologies utilisées">
+              <span>HTML5 / Sémantique</span><span>CSS3 / Responsive</span>
+              <span>JavaScript ES6+</span><span>React.js</span>
+              <span>Python</span><span>Kotlin</span><span>Java</span>
+              <span>C#</span><span>Git / GitHub</span><span>Figma</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-soft">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Mon profil</p>
+            <h2>
+              Un profil technique et créatif rigoureux, tourné vers la
+              performance et l'innovation.
+            </h2>
+          </div>
+          <div class="card-grid profile-grid">
+            <article class="card profile-card">
+              <span class="card-index">01</span>
+              <strong>Identité</strong>
+              <p>Passionné par l'informatique, les interfaces web et l'expérience numérique.</p>
+            </article>
+            <article class="card profile-card">
+              <span class="card-index">02</span>
+              <strong>Statut académique</strong>
+              <p>Étudiant en deuxième année de Licence Informatique.</p>
+            </article>
+            <article class="card profile-card">
+              <span class="card-index">03</span>
+              <strong>Domaine de prédilection</strong>
+              <p>Développement web moderne, responsive et accessible.</p>
+            </article>
+            <article class="card profile-card">
+              <span class="card-index">04</span>
+              <strong>Objectif principal</strong>
+              <p>Créer des interfaces performantes qui servent les besoins des utilisateurs.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="contact">
+        <div class="container">
+          <div class="contact-panel">
+            <p class="eyebrow">Contact &amp; échange</p>
+            <h2>
+              Collaborons ensemble sur vos projets d'intégration web,
+              d'interfaces personnalisées ou de vitrines interactives.
+            </h2>
+            <p>
+              Je suis à la recherche d'opportunités, de stages ou
+              d'alternances pour parfaire ma formation et apporter ma pierre à
+              vos projets. Contactez-moi pour échanger.
+            </p>
+            <div class="contact-links">
+              <a class="contact-link" href="mailto:oussouhermaxlouange@gmail.com">
+                <span>Email</span><strong>oussouhermaxlouange@gmail.com</strong>
+              </a>
+              <a class="contact-link" href="https://github.com/oussouhermaxlouange-dotcom" target="_blank" rel="noreferrer">
+                <span>GitHub</span><strong>github.com/oussouhermaxlouange-dotcom</strong>
+              </a>
+              <a class="contact-link" href="https://www.linkedin.com/in/hermax-louange-oussou-666a57410" target="_blank" rel="noreferrer">
+                <span>LinkedIn</span><strong>linkedin.com/in/hermax-louange-oussou-666a57410</strong>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="container site-footer">
+      <span>© <span data-current-year></span> OUSSOU Hermax. Front-end &amp; UI/UX portfolio.</span>
+      <div class="footer-links">
+        <a href="#accueil">Retour en haut ↑</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </footer>
+    <script src="new-portfolio.js" defer></script>
+  </body>
+</html>
